@@ -47,7 +47,7 @@ src/
 │   ├── StudentLayout.tsx     // Layout wrapper for student-specific pages
 │   └── MainLayout.tsx        // Main layout for landing page and public pages
 │
-├── pages/
+├── app/
 │   ├── api/                  // API route handlers (e.g., for email sending)
 │   ├── auth/
 │   │   ├── login.tsx         // Login page for all users

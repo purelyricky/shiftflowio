@@ -68,7 +68,7 @@ export const Pricing = () => {
 
         <div className="flex flex-col gap-6 items-center mt-10 lg:flex-row lg:items-end lg:justify-center">
           {/* Blurred overlay with message */}
-          <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-70 backdrop-blur-md z-10">
+          <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-90 backdrop-blur-2xl z-10">
             <h2 className="text-3xl font-bold text-white mb-4">Pricing</h2>
             <span className="text-lg font-bold text-white">Free for now - Pricing Coming soon</span>
           </div>

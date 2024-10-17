@@ -60,16 +60,16 @@ export const ProductShowcase = () => {
 
   return (
     <section ref={sectionRef} className="bg-gradient-to-b from-[#FFFFFF] to-[#D2DCFF] py-24 overflow-x-clip">
-      <div className="container">
+      <div className="container max-w-[1200px]">
         <div className="max-w-[540px] mx-auto">
           <div className="flex justify-center">
             <div className="tag">What we offer to your workforce</div>
           </div>
 
-          <h2 className="text-center text-3xl md:text-[54px] md:leading-[60px] font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-5">
+          <h2 className="text-center text-3xl md:text-[52px] md:leading-[58px] font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-5 max-w-[95%] mx-auto">
           Effortlessly Manage Your Workforce from Shift Assignment to Payroll
           </h2>
-          <p className="section-des mt-5">
+          <p className="section-des mt-5 max-w-[95%] mx-auto">
           With our platform, assign shifts with ease, monitor attendance in real-time, and automate payroll calculations. Stay informed with detailed reports, enabling you to optimize staffing, reduce costs, and focus on productivity.
           </p>
         </div>
@@ -121,11 +121,11 @@ export const ProductShowcase = () => {
           </div>
 
           <div className="bg-white rounded-2xl p-6 md:p-8 shadow-lg w-full max-w-2xl transition-all duration-300 transform hover:scale-105 md:h-[400px]">
-            <h3 className="text-center text-2xl md:text-3xl font-bold mb-4 md:mb-6 text-blue-600">{cards[activeCard].title}</h3>
+            <h3 className="text-center text-2xl md:text-3xl font-bold mb-4 md:mb-6 text-black">{cards[activeCard].title}</h3>
             <ul className="space-y-3 md:space-y-4">
               {cards[activeCard].points.map((point, idx) => (
                 <li key={idx} className="flex items-start">
-                  <svg className="w-6 h-6 text-blue-500 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="w-6 h-6 text-black mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                   </svg>
                   <span className="text-gray-700">{point}</span>
